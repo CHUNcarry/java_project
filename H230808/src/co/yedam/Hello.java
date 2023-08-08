@@ -7,6 +7,8 @@ public class Hello {
 		System.out.println("원격에 작업을 반영");
 
 		//원격에 작업중
+		
+		//문자 string 숫자 number 
 	}
 
 }
