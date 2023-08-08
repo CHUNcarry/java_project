@@ -38,7 +38,8 @@ public class OperatorExe2 {
 			}else if(menu == 3) {
 				System.out.println("잔액은" + balance + "원 입니다");
 			}else if(menu == 4) {
-				
+				System.out.println("종료합니다");
+				break;				
 			}
 			
 		}
