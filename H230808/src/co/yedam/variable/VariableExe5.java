@@ -34,6 +34,6 @@ public class VariableExe5 {
 	}
 	System.out.println("입력값의 합계는 " + sum);
 		
-	System.out.println("end if program.");
+	System.out.println("end of program.");
 	}
 }
