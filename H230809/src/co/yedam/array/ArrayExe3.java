@@ -2,10 +2,6 @@ package co.yedam.array;
 
 import java.util.Arrays;
 
-class Student{
-	String name;
-	int score;
-}
 
 
 
