@@ -1,11 +1,8 @@
 package co.yedam.array;
 
 public class Todo {
-	public static void main(String[]args) {
-	int no;
-	String todo;
-	String dueDate;
-	boolean done;
-	
+	static int no;
+	static String todo;
+	static String dueDate;
+	static boolean done = false;
 	}
-}

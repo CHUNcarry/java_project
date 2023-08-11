@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 public class ScoreApp {
 	public class Member {
-		int studentNum = 0;
-		int score = 0;
+		int studentNum ;
+		int score ;
 
 	}
 	public static void main(String[]args) {
@@ -54,6 +54,17 @@ public class ScoreApp {
 					}
 				}
 			case 4 : // 최고 최저 평균 anl()
+				int sum = 0;
+				int count = 0;
+				for(int i = 0; i<10; i++) {
+					if(members[i].score >= 1) {
+					
+						sum = members[i].score + sum;
+						count++ ;
+					}
+				}
+				
+				
 			case 5 : //exit
 				default :
 			}
