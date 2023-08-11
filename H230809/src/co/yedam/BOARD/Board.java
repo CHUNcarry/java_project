@@ -1,6 +1,6 @@
-package co.yedam.homework;
+package co.yedam.BOARD;
 
-public class text {
+public class Board {
 
 }
 
@@ -9,6 +9,11 @@ public class text {
 /*
  * 게시판 구현.
 
+
+
+Board.java - 데이터 정의
+BoardExe.java 메인 메소드 -실행
+BoardApp.java 구동 클래스
 1.등록
  제목>> 게시판 연습니다.
  내용>> 게시판을 만들어보는 중입니다.
