@@ -39,7 +39,7 @@ public class ScoreApp {
 				System.out.println("점수 입력");
 				score = Integer.parseInt(scanner.nextLine());
 				
-				Member mb = new Member();
+				Member mb = new Member;
 				
 				mb.studentNum = studentNum;
 				mb.score = score;
