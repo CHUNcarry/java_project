@@ -1,5 +1,6 @@
 package co.yedam.stream;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -70,7 +71,7 @@ public class FriendApp {
 		}
 	}
 	private void loadFile() {
-		
+		File file = new File("c:/temp/friendlist.txt");
 	}private void list() {
 
 	}
