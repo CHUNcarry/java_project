@@ -1,38 +1,38 @@
 package co.yedam.board;
 
-public class User {
+import java.io.Serializable;
 
-	String name;
-	String id;
-	String pw;
+public class User implements Serializable{
+
 	
+	private static String userId;
+	private static String userPw;
+	private static String name;
+	
+	
+	public String getUserId() {
+		return userId;
+	}
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
+	public String getUserPw() {
+		return userPw;
+	}
+	public void setUserPw(String userPw) {
+		this.userPw = userPw;
+	}
+	public static String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
 	public User() {
 		
 	}
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public String getId() {
-		return id;
-	}
-
-	public void setId(String id) {
-		this.id = id;
-	}
-
-	public String getPw() {
-		return pw;
-	}
-
-	public void setPw(String pw) {
-		this.pw = pw;
-	}
+	
 	
 	
 }

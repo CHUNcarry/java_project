@@ -19,8 +19,19 @@ public interface BoardService {
 	// 상세조회
 	public Board search(int boardNo);
 
-	public boolean checkLogin(UserService user);
+	
 
 	public void save();
+	
+	public int getTotal();
 
+	
+	//글번호 작성자 반환
+		
+	public String getResponseUser(int brdNo);
+	
+	
+	
+	
+	
 }

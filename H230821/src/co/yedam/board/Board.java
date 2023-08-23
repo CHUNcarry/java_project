@@ -1,7 +1,9 @@
 package co.yedam.board;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class Board implements Serializable {
 	private int brdNo;
@@ -11,6 +13,10 @@ public class Board implements Serializable {
 	private Date writeDate;
 	private Date updateDate;
 
+	
+	List<Reply> reply = new ArrayList<Reply>() ;
+	
+	
 	public int getBrdNo() {
 		return brdNo;
 	}
